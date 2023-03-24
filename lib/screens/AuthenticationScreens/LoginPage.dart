@@ -1,5 +1,5 @@
-import 'package:estatepay/screens/AuthenticationScreens/homescreen.dart';
 import 'package:estatepay/screens/AuthenticationScreens/signup.dart';
+import 'package:estatepay/screens/homeScreens/homepageScreen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -36,7 +36,7 @@ class _SignInPageState extends State<SignInPage> {
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (context) => HomePage(),
+            builder: (context) => PaymentPage(),
           ),
         );
       }
