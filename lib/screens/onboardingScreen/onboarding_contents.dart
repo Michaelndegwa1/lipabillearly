@@ -23,7 +23,7 @@ List<OnboardingContents> contents = [
         "But understanding the contributions our colleagues make to our teams and companies.",
   ),
   OnboardingContents(
-    title: "Get notified when events happens",
+    title: "Get notified when Bills & Services are Updated",
     image: "assets/images/image3.png",
     desc:
         "Take control of notifications, collaborate live or on your own time.",

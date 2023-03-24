@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "953761043201",
+    "project_id": "estatepay-77ada",
+    "storage_bucket": "estatepay-77ada.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953761043201:android:ebed887f31fb0735468100",
+        "android_client_info": {
+          "package_name": "com.example.estatepay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953761043201-v3tpicrs9p6582raabkatrm3sum5ggaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6ck_4avL7AI-ap1XwjSX1nvdOdXYOJ0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953761043201-v3tpicrs9p6582raabkatrm3sum5ggaf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "953761043201-8rvdc40l0imug6dadue2sr8qord6vuts.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.estatepay"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

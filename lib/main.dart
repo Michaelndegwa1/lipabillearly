@@ -15,7 +15,7 @@ void main() async {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       // Your app code here
       debugShowCheckedModeBanner: false,
       home: OnboardingScreen(),

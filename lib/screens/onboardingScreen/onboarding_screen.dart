@@ -21,7 +21,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
   int _currentPage = 0;
   List colors = const [
-    Color(0xffDAD3C8),
+    Color(0xffc6c2b9),
     Color(0xffFFE5DE),
     Color(0xffDCF6E6),
   ];
@@ -30,7 +30,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     int? index,
   }) {
     return AnimatedContainer(
-      duration: const Duration(milliseconds: 200),
+      duration: const Duration(milliseconds: 100),
       decoration: const BoxDecoration(
         borderRadius: BorderRadius.all(
           Radius.circular(50),
@@ -122,7 +122,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => LoginPage()),
+                                    builder: (context) => SignInPage()),
                               );
                             },
                             child: const Text("START"),
@@ -151,7 +151,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                   Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                        builder: (context) => LoginPage()),
+                                        builder: (context) => SignInPage()),
                                   );
                                 },
                                 child: Text(
